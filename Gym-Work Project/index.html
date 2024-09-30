@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Web Project</title>
+    
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      ul {
+        display: flex;
+
+        list-style: none;
+        gap: 2rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: grey;
+        font-family: algerian;
+        padding: 1rem;
+      }
+
+      body {
+        height: 100vh;
+        background-image: url(./email-bacground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: sans-serif;
+      }
+
+      p {
+        /* text-align: center; */
+        color: white;
+        /* margin-top: 8rem; */
+        align-items: center;
+      }
+
+      h2 {
+        color: white;
+        font-family: algerian;
+        text-decoration: transparent;
+         
+        
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+      }
+
+      h6 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: algerian;
+        
+      }
+
+      a:hover{
+          color: black;
+          background-color: red;
+          padding: 1.2rem;
+          border: none;
+          border-radius: 3px;
+      }
+
+     
+
+      .studio {
+        color: red;
+        font-weight: bolder;
+      }
+
+      .sign {
+        border: none;
+        background-color: red;
+        padding: 0.7rem;
+        color: blue;
+        border-radius: 3px;
+        /* padding: 5px; */
+      }
+
+      a:hover.signup{
+       background-color: red;
+       color: black;
+       font-weight: bold;
+       font-size: large;
+       font-family: algerian;
+
+      }
+
+      .gym {
+        font-weight: bolder;
+        font-size: 41px;
+        font-family: algerian;
+      }
+
+      .find {
+        color: red;
+      }
+
+      .container {
+        text-align: center;
+        margin-top: 10rem;
+        line-height: 4rem;
+        color: white;
+      }
+
+     .button{
+        
+        color: white;
+        border: none;
+        background-color: red;
+        padding: 0.5rem;
+        font-family: algerian;
+        border-radius: 4px;
+      }
+  
+      
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+    
+      <h2>TRAINING <span class="studio">STUDIO</span></h2> 
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Classes</a></li>
+        <li><a href="">Scheldule</a></li>
+        <li><a href="">Contact</a></li>
+        <button class="sign">
+          <li><a href="" class="signup">SignUp</a></li>
+        </button>
+       
+    </nav>
+    <div class="container">
+      <h6 class="work">Work Harder, Get Stronger</h6>
+
+      <h1 class="gym">EASY WITH OUR <span class="find"> GYM</span></h1>
+<!-- 
+      <center><button class="button">Become A Member</button></center> -->
+      <a href="" class=""><button class="button">Become A Member</button></a> 
+    </div>
+
+   
+  </body>
+</html>
